@@ -1,0 +1,199 @@
+
+.container.container-finance-statement {
+  max-width: 1420px;
+}
+.tars_button_Menu {
+    width: 302px;
+    height: 55px;
+    
+}
+.tars_button_Menu .Menu{
+    margin-bottom: 10px;
+}
+.tars_button_Menu .Menu .btn:hover{
+    background-color: #deeffe;
+    color: #0079c2;
+    border-color: #deeffe;
+    
+}
+.tars_button_Menu .Menu .btn{
+    color: #0079c2;
+    border-color: #deeffe;
+}
+.tars_button_Menu .Menu .btn img{
+    margin: 0px 0px 0px 27px;
+    position: relative;
+    top: 5px;
+    
+}
+.tars_button_Menu .Menu{
+    margin-bottom: 10px;
+    border-color: #deeffe;
+}
+
+.tars_button_Menu .download .btn{
+    background-color: #fedfdf;
+    color: #fd6d6d;
+    border-color: #deeffe;
+}
+.tars_button_Menu .download .btn img{
+    margin: 0px 0px 0px 27px;
+    position: relative;
+    top: 5px;
+}
+.tars_button_Menu .download .btn:hover{
+    background-color: #ffffff;
+    color: #fd6d6d;
+    border-color: #deeffe;
+}
+.card{
+    position: relative;
+    top: 350px;
+    width: 302px;
+    font-family: 'psl_display_pro';
+    /* height: 658px; */
+}
+.card-header{
+    height: 55px;
+}
+.card-body nav {
+    margin: auto;
+    /* margin-top: 40px; */
+    position: relative;
+    /* width: 50vw;
+    min-width: 320px; */
+    height: 100%;
+    font-family: 'psl_display_pro';
+  }
+  
+  .card-body nav h2 {
+    border-radius: 2px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    height: 40px;
+    text-transform: uppercase;
+    color: #0079c2;
+    font-weight: 200;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 4px 4px 20px -2px rgba(0,0,0,.35); */
+    transition: all .4s;
+    font-family: 'psl_display_pro';
+  }
+  
+  .card-body nav:hover h2{
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 5px -1px rgba(0,0,0,.35);
+   }
+   .card-body nav:hover:active h2{
+    transform: translateY(10px);
+    box-shadow: 0px -1px 2px 0px rgba(0,0,0,.35);
+   }
+  
+   .card-body input#toggle{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    height: 40px;
+    font-family: 'psl_display_pro';
+  }
+  
+  .card-body #toggle:checked ~ul {
+    height: 0%;
+  }
+  .card-body #toggle:checked nav {
+    height: 90px;
+  }
+  
+  .card-body nav ul {
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 22px;
+    text-align: center;
+    transition: all .4s ease-out;
+    height: 0;
+    
+  }
+  .card-body nav ul li {
+    border-radius: 2px;
+    position: relative;
+    display: inline-block;
+    margin-left: 35px;
+    line-height: 1.5;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+    background: rgb(255, 255, 255);
+    /* transition: background 3s;
+    box-shadow: 2px 2px 10px -2px rgba(0,0,0,.35); */
+  }
+  
+  /* .card-body nav ul li:hover {
+    background: mediumorchid;
+    transition: background .45s;
+  } */
+  
+  .card-body nav ul a {
+    display: block;
+    color: ivory;
+    text-transform: lowercase;
+    font-size: 18px;
+    font-weight: 200;
+    text-decoration: none;
+    transition: color .3s;
+  }
+  .rs-scale span:not(:first-child) {
+    opacity: 0;
+  }
+  .rs-scale span:last-child {
+    opacity: 1;
+  }
+.card-body .tri .items {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+}
+.card-body .type .button {
+  display: grid;
+  grid-template-columns:  auto;
+  row-gap: 10px;
+}
+.card-body nav span.arrow::before {
+  content: '\f106';
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  top: 13px;
+  font-size: 24px;
+  right: 0;
+  cursor: pointer;
+  font-family: 'fontawesome';
+}
+.card-body nav span.arrow::after {
+  opacity: 0;
+  content: '\f107';
+  position: absolute;
+  font-family: 'fontawesome';
+  height: 2px;
+  width: 15px;
+  top: 13px;
+  right: 0;
+  font-size: 24px;
+  cursor: pointer;
+}  
+.card-body #toggle:checked span.arrow::before {
+  opacity: 0;
+}
+.card-body #toggle:checked span.arrow::after {
+  opacity: 1;
+}
